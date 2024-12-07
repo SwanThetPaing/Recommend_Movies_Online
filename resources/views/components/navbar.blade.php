@@ -11,7 +11,7 @@
 #logo 
 {
     color: yellow;
-    box-shadow: 3px 0px 0px 0px lightgreen;
+    /* box-shadow: 3px 0px 0px 0px lightgreen; */
     font-family: Luxuary;
     font-size: 25px;
     padding: 10px;
@@ -148,13 +148,17 @@
   margin-right: 300px;
 }
 
+#image {
+  padding-bottom: 120px;
+}
+
 </Style>
 
 <nav id="nav">
 
         <nav class="navbar">
       <div class="container">
-      <a id="logo" href="/" class="nav-link">Movieland Cinema</a>
+      <a id="logo" href="/" class="nav-link"><img src='{{ asset ("storage/images/movieland.png") }}' id="image" width="110px" height="200px"></a>
       <x-menu/>
       </div>
     </nav>

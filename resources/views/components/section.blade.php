@@ -8,6 +8,7 @@
     margin: 0 auto;
     height: 100%;
     background-color: black;
+    padding-top: 50px;
 }
 
 </style>
